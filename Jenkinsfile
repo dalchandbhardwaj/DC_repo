@@ -53,5 +53,11 @@ ls
       }
     }
 
+    stage('Test Succesfull') {
+      steps {
+        echo 'Every Test is succesfull'
+      }
+    }
+
   }
 }
